@@ -1,0 +1,129 @@
+html, 
+body {
+    font-family: 'Times New Roman', Times, serif;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: goldenrod;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    height: 100px;
+}
+
+.pic {
+    width: 50px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+}
+
+.letter {
+    color: rgb(236, 56, 24);
+}
+
+.little {
+    color: rgb(236, 56, 24);
+    font-size: xx-small;
+    position: relative;
+    top: 16px;
+    right: 30px;
+}
+
+.middle {
+    display: flex;
+    /* flex-direction: column; */
+    height: 100%;   
+}
+
+
+.work {
+    display: flex;
+    justify-content: center;    
+}
+
+.box-zone {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    /* align-items: baseline; */
+    /* align-content: space-evenly; */
+}
+
+.column-1 {
+    background-color: blueviolet;
+    width: 210px;
+}
+
+.item {
+    border-color: blueviolet;
+    border-style: dotted;
+    width: 150px;
+}
+
+.column-2 {
+    background-color: cornflowerblue;
+    width: 210px;
+}
+
+.text {
+    /* flex: 1 0 auto; */
+    padding: 30px;
+    
+}
+
+.holder {
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.item-1 {
+    background-color: red;
+    order: -2;
+    flex-grow: 2;
+}
+
+.item-2 {
+    background-color: orange;
+    order: 1;
+    flex-grow: 1;
+}
+
+.item-3 {
+    background-color: blueviolet;
+    order: 0;
+    flex-grow:1 ;
+}
+
+.item-4 {
+    background-color: blue;
+    order: 2;
+    flex-grow: 1;
+}
+
+.item-5 {
+    background-color: green;
+    order: -1;
+    flex-grow: 2;
+}
+
+.footer {
+    display: flex;
+    /* flex:  0 0 auto; */
+    background-color: lightgreen;
+    justify-content: center;
+    height: 30px;
+    align-items: flex-end;
+    
+}
